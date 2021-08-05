@@ -77,6 +77,8 @@ form input {
   width: 35vw;
   height: 40px;
   opacity: 0.8;
+  font-family: 'Architects Daughter', cursive;
+  letter-spacing: 1px;
 }
 
 form label {
@@ -119,6 +121,7 @@ ul {
   padding: 5px 25px;
   background-image: url(./assets/lined-paper.png);
   background-position: center;
+  background-size: 80%;
 }
 
 i {
