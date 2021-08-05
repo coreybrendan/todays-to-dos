@@ -51,6 +51,7 @@ dbRef.on('value', function(data) {
     listItemElement.innerHTML = `<i class="far fa-square"></i>`;
     listItemElement.appendChild(document.createTextNode(toDoData[prop].description));
 
+    console.log(arrayOfToDos);
     arrayOfToDos.push(listItemElement.outerHTML);
 
     // we have array of <li>'s, lets put them in the ul HTML element

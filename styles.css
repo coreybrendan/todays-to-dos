@@ -44,7 +44,7 @@ h1 {
 /* end general styles */
 
 header {
-  background-image: url(./assets/michael-king-bIrEUo3vwcs-unsplash.jpg);
+  background-image: url(./assets/palm-trees.jpg);
   background-size: cover;
   background-position-y: 35%;
   height: 75vh;
@@ -143,4 +143,5 @@ li {
 .text-muted,
 .text-muted i {
   color: #AFA1AE;
+  text-decoration: line-through;
 }
